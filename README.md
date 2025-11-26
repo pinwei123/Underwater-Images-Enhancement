@@ -4,7 +4,7 @@ Enhancing underwater images to restore natural color, improve visibility, and re
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Underwater images often suffer from:
 
@@ -17,23 +17,12 @@ This project provides a lightweight enhancement workflow to improve the visual q
 
 ---
 
-## ✨ Features
+## Features
 
 * Simple and effective underwater image enhancement
 * Color correction and contrast improvement
 * Batch processing support (folder-based)
 * Example input image included
-
----
-
-## 📂 Project Structure
-
-```
-Underwater-Images-Enhancement/
-├── unet/              # Main enhancement algorithm (or model, optional)
-├── sample.png         # Sample input image
-└── README.md          # Documentation
-```
 
 ---
 
@@ -71,49 +60,5 @@ pip install numpy opencv-python matplotlib
 Example command (modify based on your script structure):
 
 ```bash
-python unet/main.py \
-    --input_folder path/to/your/underwater_images \
-    --output_folder path/to/save/enhanced_images
+python unet/train.py
 ```
-
----
-
-## 🛠 Tech Stack
-
-* Python 3.x
-* OpenCV for image processing
-* NumPy for array operations
-* (Optional) PyTorch / TensorFlow if deep learning enhancement is added later
-
----
-
-## 📌 Roadmap
-
-Planned improvements:
-
-* Support configurable enhancement parameters
-* Add deep learning-based enhancement method (U-Net or Diffusion)
-* Provide more benchmark examples (before/after)
-* Performance evaluation metrics for underwater image quality
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-Feel free to submit issues or pull requests.
-
----
-
-## 📄 License
-
-This project currently does not include a specific license.
-(You may add MIT License or others based on future needs.)
-
----
-
-## 🙌 Acknowledgements
-
-Thanks to the underwater imaging research community for dataset inspiration and enhancement methodologies.
-
----
