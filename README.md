@@ -36,25 +36,6 @@ This project provides a lightweight enhancement workflow to improve the visual q
 
 ---
 
-## ⚙️ Installation
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/pinwei123/Underwater-Images-Enhancement.git
-cd Underwater-Images-Enhancement
-```
-
-### 2️⃣ Install Dependencies
-
-(Modify based on your actual package usage)
-
-```bash
-pip install numpy opencv-python matplotlib
-```
-
----
-
 ## ▶️ Usage
 
 Example command (modify based on your script structure):
